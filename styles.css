@@ -46,15 +46,39 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
   font-size: 1.5rem;
+  font: "times new roman";
   width: 50%;
-  font: ;
 }
+
 nav a:hover {
-
+background-color: var(--primary-color);
 
 }
+
 h1 {
+  font: "times new roman";
   font-weight: bold;
   font-size: 3rem;
-  font: ;
+  
+}
+
+p{
+font-family: "times new roman";
+font-size: medium;
+font-weight: bolder;
+font-style: italic;
+}
+
+.child{
+  border: solid 1px var(--secondary-color);
+  padding: 1rem;
+  font: "times new roman" ;
+  font-style: oblique;
+  margin: 1rem;
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
