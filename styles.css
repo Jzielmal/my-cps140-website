@@ -1,19 +1,17 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 :root {
---primary-color:rgb(24, 152, 175);
---secondary-color:rgb(119, 0, 255);
+  --primary-color: rgb(24, 152, 175);
+  --secondary-color: rgb(119, 0, 255);
 }
-
-
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--secondary-color);
-  background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 nav {
@@ -38,7 +36,7 @@ nav a {
   color: var(--primary-color);
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
@@ -51,33 +49,31 @@ main {
 }
 
 nav a:hover {
-background-color: var(--primary-color);
-
+  background-color: var(--primary-color);
 }
 
 h1 {
   font: "times new roman";
   font-weight: bold;
   font-size: 3rem;
-  
 }
 
-p{
-font-family: "times new roman";
-font-size: medium;
-font-weight: bolder;
-font-style: italic;
+p {
+  font-family: "times new roman";
+  font-size: medium;
+  font-weight: bolder;
+  font-style: italic;
 }
 
-.child{
+.child {
   border: solid 1px var(--secondary-color);
   padding: 1rem;
-  font: "times new roman" ;
+  font: "times new roman";
   font-style: oblique;
   margin: 1rem;
 }
 
-.parent{
+.parent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
