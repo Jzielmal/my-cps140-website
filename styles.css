@@ -71,6 +71,7 @@ p {
   font: "times new roman";
   font-style: oblique;
   margin: 1rem;
+  max-width: 200px; ;
 }
 
 .parent {
