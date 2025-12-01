@@ -82,3 +82,10 @@ p {
   gap: 20px;
 }
 
+.child2 {
+  border: solid 1px var(--secondary-color);
+  padding: 1rem;
+  font-style: oblique;
+  margin: 1rem;
+  max-width: 500px;
+}
