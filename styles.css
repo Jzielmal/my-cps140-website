@@ -89,3 +89,13 @@ p {
   margin: 1rem;
   max-width: 500px;
 }
+
+.child3 {
+  border: solid 1px var(--secondary-color);
+  padding: 1rem;
+  font: "times new roman";
+  font-style: oblique;
+  margin: 1rem;
+  min-width: 200px; 
+  width: 45%;
+}
