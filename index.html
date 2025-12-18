@@ -26,19 +26,21 @@
     <main>
       <form name="MyFormclass"> 
         <label>
-          search <input type="text">
+          search <input type="text" id="searchField">
         </label>
         <label>record my response
         <input type="checkbox">
         </label> 
         <label>Email
-        <input type="email">
+        <input type="email" id="emailField">
       </label> 
         <input type="submit" onclick="submitForm()">
       </form>
     <script>
       function submitForm() {
-        alert("hello");
+        const searchedText = document.getElementById("searchField").value;
+        const email = document.getElementById("emailField").value;
+        alert("You searched for "+searchedText + " and your email is " + email);
       }
       </script>
       </div>
