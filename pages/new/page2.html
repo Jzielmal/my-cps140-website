@@ -14,14 +14,27 @@
       <a href="page3.html">social streaming</a>
       <a href="info.html">social media</a>
     </nav>
-    
+
     <main>
-      <form name="MyForm">
+      <form name="MyFormclass"> 
         <label>
-          search <input type="text">
+          search <input type="text" id="searchField">
         </label>
-        <input type="submit">
+        <label>record my response
+        <input type="checkbox">
+        </label> 
+        <label>Email
+        <input type="email" id="emailField">
+      </label> 
+        <input type="submit" onclick="submitForm()">
       </form>
+    <script>
+      function submitForm() {
+        const searchedText = document.getElementById("searchField").value;
+        const email = document.getElementById("emailField").value;
+        alert("You searched for "+searchedText + " and your email is " + email);
+      }
+      </script>
       <ul>
         <h1>Streaming</h1>
         <div class="parent">
