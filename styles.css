@@ -50,6 +50,10 @@ main {
 
 nav a:hover {
   background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 h1 {
